@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lang Lang - Pianista</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Lang Lang</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre.html">Sobre el Artista</a></li>
+                <li><a href="produccion.html">Producción</a></li>
+                <li><a href="obras.html">Obras Destacadas</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="recursos.html">Recursos Educativos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <h2>Bienvenido</h2>
+            <p id="pini">Lang Lang es un pianista virtuoso conocido por su estilo apasionado y su habilidad técnica. Su música está inspirada en una mezcla de influencias clásicas y contemporáneas.</p>
+            <div class="gallery">
+                <figure>
+                    <img class="imgPrinc" src="Imágenes/Lang Lang en concierto.jpg" alt="Lang Lang tocando el piano">
+                    <figcaption>Lang Lang en concierto</figcaption>
+                </figure>
+                <figure>
+                    <img class="imgPrinc" src="Imágenes/Lang Lang de gala.jpg" alt="Lang Lang en un evento">
+                    <figcaption>Lang Lang en un evento de gala</figcaption>
+                </figure>
+            </div>
+        </section>
+        <!-- Dentro de la sección de gamificación -->
+        <section id="gamification">
+            <h2>¡Gana puntos e insignias!</h2>
+            <p>Interacciona con nuestro contenido y gana puntos:</p>
+            <div id="points">Puntos: <span id="point-count">0</span></div>
+            <div id="badge">Insignia: <span id="badge-display">Ninguna</span></div>
+            <a href="blog.html" onclick="earnPoints();">
+                <button>Comentar en el blog</button>
+            </a>
+        </section>
+    </main>
+
+    <script src="scripts.js"></script>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <p>© 2024 Lang Lang. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

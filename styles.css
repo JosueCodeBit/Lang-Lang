@@ -1,0 +1,377 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0; 
+    background-image: url(Imágenes/Lang\ Lang\ fondo\ blanco.jpg);
+    background-attachment: fixed;  
+    background-color: #f0f8ff; /* Color de fondo claro */
+    color: #2f4f4f; /* Color de texto oscuro */
+}
+
+header {
+    background-color: #000000; /* Color de fondo del encabezado */
+    color: #ffffff; /* Color de texto del encabezado */
+    padding: 1.5rem;
+    text-align: center;
+    border-bottom: 5px solid #5f9ea0; /* Borde inferior */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    border-radius: 0 0 10px 10px; /* Bordes redondeados */
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #ffffff; /* Color de los enlaces */
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+nav ul li a:hover {
+    background-color: #ffffff4d; /* Color de fondo al pasar el ratón */
+    border-radius: 5px;
+}
+
+
+
+footer {
+    background-color: #000000; /* Color de fondo del pie de página */
+    color: #ffffff; /* Color de texto del pie de página */
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-top: 5px solid #5f9ea0; /* Borde superior */
+    height: 45px;
+}
+
+/* Estilos específicos */
+.intro {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery figure {
+    margin: 1rem;
+    max-width: 500px;
+}
+
+.gallery img {
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+.imgPrinc {
+    height: 35rem;
+    width: 25rem;
+}
+
+.imgpro {
+    width: 500px;
+    height: 300px;
+}
+
+.gallery figcaption {
+    text-align: center;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+.about, .production, .works, .blog, .contact {
+    margin-bottom: 2rem;
+}
+
+.about p, .production p, .works p, .blog p, .contact p {
+    line-height: 1.8; /* Espaciado de línea */
+}
+
+.about {
+    background-color: rgba(225, 225, 225, 0.8) ;
+    padding: 1rem;
+}
+
+.blog article {
+    margin-bottom: 2rem;
+}
+
+.blog article h3 {
+    margin-bottom: 0.5rem;
+    color: #2f4f4f; /* Color de los títulos de los artículos */
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #ffffff; /* Color de fondo del formulario */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    border-radius: 15px; /* Bordes redondeados */
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #2f4f4f; /* Color de fondo del botón */
+    color: #ffffff; /* Color de texto del botón */
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.contact-form button:hover {
+    background-color: #5f9ea0; /* Color de fondo del botón al pasar el ratón */
+}
+
+h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+}
+
+nav {
+    font-family:'Trebuchet MS';
+}
+
+li {
+border-style:solid;
+border-radius: 30%;
+}
+
+li:hover{
+    all: unset;
+}
+
+#pini {
+    background-color: rgba(225, 225, 225, 0.8) ;
+    height: 40px;
+    padding: 1rem;
+}
+
+/* Gamificación
+/* styles.css - Añade estos estilos */
+#gamification {
+    background-color: #f0f0f0;  /* Cambié el color de fondo a un tono gris claro para más contraste */
+    padding: 30px;  /* Incrementé el relleno para más espacio interno */
+    border-radius: 15px;  /* Aumenté el radio del borde para esquinas más suaves */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);  /* Hice la sombra más pronunciada */
+    margin: 30px auto;  /* Incrementé el margen para más espacio alrededor */
+    max-width: 700px;  /* Aumenté el ancho máximo para mayor presencia */
+    text-align: center;
+}
+
+#points, #badge {
+    margin: 20px 0;  /* Incrementé el margen para más espacio entre elementos */
+    font-size: 1.4em;  /* Aumenté el tamaño de la fuente para mejor legibilidad */
+    font-weight: bold;  /* Añadí negrita para mayor énfasis */
+}
+
+button {
+    background: linear-gradient(135deg, #007BFF 0%, #0056b3 100%);  /* Añadí un degradado al fondo del botón */
+    color: white;
+    padding: 12px 25px;  /* Aumenté el relleno para botones más grandes */
+    border: none;
+    border-radius: 25px;  /* Aumenté el radio del borde para botones más redondeados */
+    cursor: pointer;
+    font-size: 1.1em;  /* Aumenté el tamaño de la fuente para mejor legibilidad */
+    transition: background 0.3s ease;  /* Añadí una transición suave para el cambio de fondo */
+}
+
+button:hover {
+    background: linear-gradient(135deg, #0056b3 0%, #003f7f 100%);  /* Cambié el degradado al pasar el cursor */
+}
+
+
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+header {
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+.blog {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog h2 {
+    text-align: center;
+    color: #007BFF;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+.blog article {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.blog article:last-of-type {
+    border-bottom: none;
+}
+
+.blog article h3 {
+    color: #0056b3;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.blog article p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 0;
+}
+
+main {
+    padding: 5rem;
+}
+
+
+/* styles.css */
+
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+header {
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+#educational-resources {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#educational-resources h2 {
+    text-align: center;
+    color: #007BFF;
+    margin-bottom: 0px;
+    font-size: 2.5em;
+}
+
+.resource {
+    margin-bottom: 0px;
+    padding: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.resource:last-of-type {
+    border-bottom: none;
+}
+
+.resource h3 {
+    color: #0056b3;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.resource p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 0;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+}
